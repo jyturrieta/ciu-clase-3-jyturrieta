@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienvenido a PetBook</h1>
+    <p>Petbook es la red social de mascotas creada exclusivamente para los alumnos de la Universidad Nacional de Hurlingham</p>
+    <h2>Ingrese sus datos</h2>
+    <form action="https://formspree.io/f/mjvjlgdo" method="POST">
+        <label for=""> Nombre de su mascota: <input type="text" name="mascota" placeholder="nombre" required> </label> <br>
+        <label for=""> Color de su mascota: <input type="color" name="color" placeholder="color" required> </label> <br>
+        <label for="">Genero de su mascota: <input type="radio" name="genero" value="macho">M<input type="radio" name="genero" value="hembra">F</label><br>
+        <label for=""> Edad de su mascota: <input type="number" name="edad" placeholder="edad" > </label> <br>
+        <label for=""> Email: <input type="email" name="email" placeholder="email" required> </label> <br>
+        <label for=""> Contraseña: <input type="password" name="contraseña" placeholder="contraseña" required> </label> <br>
+        <label for="">Tipo de Mascota: </label>
+            <select name="tipo_de_mascota" id="">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option> 
+                <option value="tortuga">Tortuga</option>
+            </select> <br>
+        <label for="">Contanos como es tu mascota</label><br><textarea name="" id="" cols="40" rows="10"></textarea><br>
+        <label for="">Acepto las bases y condiciones de PetBook <input type="checkbox" name="bases_y_condiciones"value="acepta" required></label>
+        <input type="submit"> </label> <br>
+        
+    </form>
+</body>
+</html>
